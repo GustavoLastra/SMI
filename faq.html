@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/reset.css"> <!-- To Normalize browsers defaults css-->
+	<link rel="stylesheet" href="css/grid.css"> <!-- To specify the rows and columns properties-->
 	<link rel="stylesheet" href="css/styles.css"> <!-- Resource style -->
 	<link rel="stylesheet" href="css/modals.css"> <!-- Modals style -->
 
@@ -16,47 +17,53 @@
 		<h1>FAQ</h1>
 	</header>
 
+<main class="row">
+	<nav class="col-2">
+		<ul class="">
+			<li><a href="#first">Erste Schritte</a></li>
+			<li><a href="#support">Support</a></li>
+			<li><a href="#bezahlungen">Bezahlungen</a></li>
+			<li><a href="#datenschutz">Datenschutz</a></li>
+			<li><a href="#kontakt">Kontakt</a></li>
+		</ul> <!-- cd-faq-categories -->
+	</nav>
+	<section class="col-9">
+		<section id="first">
+			<button class="accordion">Erste Schritte</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+		</section>
+		<section id="support">
+			<button class="accordion">Support</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+		</section>
+		<section id="bezahlungen">
+			<button class="accordion">Bezahlungen</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+		</section>
+		<section id="datenschutz">
+			<button class="accordion">Datenschutz</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+		</section>
+		<section id="kontakt">
+			<button class="accordion">Kontakt</button>
+			<div class="panel">
+				<p>Lorem ipsum...</p>
+			</div>
+		</section>
+	</section>
 
-<nav>
-	<ul class="cd-faq-categories">
-		<li><a href="#first">Erste Schritte</a></li>
-		<li><a href="#support">Support</a></li>
-		<li><a href="#bezahlungen">Bezahlungen</a></li>
-		<li><a href="#datenschutz">Datenschutz</a></li>
-		<li><a href="#kontakt">Kontakt</a></li>
-	</ul> <!-- cd-faq-categories -->
-</nav>
+</main>
 
-<section id="first">
-	<button class="accordion">Erste Schritte</button>
-	<div class="panel">
-		<p>Lorem ipsum...</p>
-	</div>
-</section>
-<section id="support">
-	<button class="accordion">Support</button>
-	<div class="panel">
-		<p>Lorem ipsum...</p>
-	</div>
-</section>
-<section id="bezahlungen">
-	<button class="accordion">Bezahlungen</button>
-	<div class="panel">
-		<p>Lorem ipsum...</p>
-	</div>
-</section>
-<section id="datenschutz">
-	<button class="accordion">Datenschutz</button>
-	<div class="panel">
-		<p>Lorem ipsum...</p>
-	</div>
-</section>
-<section id="kontakt">
-	<button class="accordion">Kontakt</button>
-	<div class="panel">
-		<p>Lorem ipsum...</p>
-	</div>
-</section>
+
+
 
 
 <script src="js/accordion.js"></script>
