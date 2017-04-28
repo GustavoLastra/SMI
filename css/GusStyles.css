@@ -517,6 +517,9 @@ header h1 {
 
     border-color: #ff0000;
 
+    white-space: nowrap;
+    border-bottom: 1px solid #555b61;
+
 
 
 }
