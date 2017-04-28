@@ -32,7 +32,7 @@ body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
-  background-color: #B2DFDB;
+  background-color: #eee;
 }
 
 a {
@@ -45,9 +45,16 @@ img {
   max-width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
+  margin-top: 2%;
+  margin-bottom: 2%;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  color: #B2DFDB;
+}
+
+p {
+  padding-bottom: 3%;
 }
 
 /* --------------------------------
@@ -499,8 +506,8 @@ header h1 {
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-    background-color: #eee;
-    color: #444;
+    background-color: white;
+    color: #009688;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -508,18 +515,32 @@ button.accordion {
     border: none;
     outline: none;
     transition: 0.4s;
+    font-size: 150%;
+
+}
+
+.accopanel:hover {
+  box-shadow: 5px 5px 5px grey;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
+    background-color: white;
+
 }
 
+
+
 /* Style the accordion panel. Note: hidden by default */
-div.panel {
-    padding: 0 18px;
+.panel {
+    padding: 0 30px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+.menu {
+  background-color: #4e5359;
+  padding: 5%;
 }
