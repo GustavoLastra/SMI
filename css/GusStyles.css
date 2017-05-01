@@ -31,7 +31,7 @@ html * {
 body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
-  color: #7f8c97;
+  color: #6c7d8e;
   background-color: #eee;
 }
 
@@ -50,7 +50,7 @@ h1, h2, h3 {
   margin-bottom: 2%;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #B2DFDB;
+  color: ##a7b7b5;
 }
 
 p {
@@ -502,26 +502,27 @@ header h1 {
     transform: translateX(0);
   }
 }
+
+
 .button {
     background-color: #4e5359 ;
     color: white;
     cursor: pointer;
-    width: 150%;
+    width: 50%;
     text-align: left;
     font-size: 100%;
-
-    padding-left:10%;
-    padding-right: 30%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-
-    border-color: #ff0000;
-
+    padding-left:5%;
+    padding-right: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     white-space: nowrap;
     border-bottom: 1px solid #555b61;
+    text-decoration: none;
+    display: inline-block;
+}
 
-
-
+.button:hover {
+  background-color: #5d6165;
 }
 
 
@@ -541,7 +542,7 @@ button.accordion {
 }
 
 .accopanel:hover {
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 0 0 1em  grey;
 }
 
 
