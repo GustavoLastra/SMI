@@ -49,6 +49,9 @@ img {
 }
 
 .imgPanel {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 1em  grey;
+
     max-width: 100%;
     border-radius: 2%;
     padding: 1%;
