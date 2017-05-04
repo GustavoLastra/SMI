@@ -172,14 +172,33 @@ button.accordion.active, button.accordion:hover {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
 
-    padding: 0 30px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
+  padding: 0 30px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 .menu {
   background-color: #4e5359;
   padding: 5%;
+}
+
+.profil {
+  box-shadow: 0 0 1em  grey;
+  background-color: #fefefe;
+  padding: 5% 7%;
+  text-align: center;
+
+  border: 2px solid #a1a1a1;
+  background: #dddddd;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.imgteam {
+  max-width: 100%;
+  border-radius: 2%;
+  padding: 1%;
+  width: 50%;
 }
