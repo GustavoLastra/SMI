@@ -94,17 +94,23 @@ Modules - reusable parts of our design
 Main components
 
 -------------------------------- */
+
+
 header {
   height: 200%;
   line-height: 200px;
   text-align: center;
   background: #00796B;
 }
+
 header h1 {
   color: white;
   font-size: 18px;
   font-size: 1.125rem;
 }
+
+
+
 @media only screen and (min-width: 1170px) {
   header {
     height: 300px;
@@ -192,16 +198,19 @@ button.accordion.active, button.accordion:hover {
   background-color: #fefefe;
   padding: 5% 7%;
   text-align: center;
+  margin-top: 30% ;
+  background: rgba(221, 221, 221, 0);
+  width: 120%;
 
-  border: 2px solid #a1a1a1;
-  background: #dddddd;
-  width: 100%;
-  border-radius: 25px;
+}
+
+.cuerpoTeam {
+ background-color: rgba(78, 83, 89, 0.04);
 }
 
 .imgteam {
   max-width: 100%;
-  border-radius: 2%;
+
   padding: 1%;
   width: 50%;
 }
