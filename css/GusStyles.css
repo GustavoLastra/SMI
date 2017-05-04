@@ -31,8 +31,8 @@ html * {
 body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
-  color: #6c7d8e;
-  background-color: #4e5359;
+  color: #5d6165;
+  background-color: rgba(62, 64, 66, 0.11);
 }
 
 a {
@@ -93,7 +93,7 @@ Modules - reusable parts of our design
 
 Main components
 
--------------------------------- */
+
 
 
 header {
@@ -121,6 +121,7 @@ header h1 {
     font-size: 1.5rem;
   }
 }
+-------------------------------- */
 
 
 
@@ -200,7 +201,7 @@ button.accordion.active, button.accordion:hover {
   text-align: center;
   margin-top: 30% ;
   background: rgba(221, 221, 221, 0);
-  width: 120%;
+  width: 100%;
 
 }
 
@@ -213,4 +214,8 @@ button.accordion.active, button.accordion:hover {
 
   padding: 1%;
   width: 50%;
+}
+
+.nameTeam {
+  color: #22ab03;
 }
