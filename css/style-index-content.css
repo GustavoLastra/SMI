@@ -18,6 +18,7 @@ main{
 	padding-top:9%;
 	background-color:#adadad;
 	display: block;
+	position: relative;
 }
 
 article{
