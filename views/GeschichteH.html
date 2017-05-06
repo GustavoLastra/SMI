@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!-- 										Source
+Timeline template  https://codyhouse.co/gem/vertical-timeline/
+Modal boxe's code  https://www.w3schools.com/howto/howto_css_modals.asp
+officebuilding.jpg https://tackk.com/cvj3k0
+
+The Html and Css resources with my name are mine
+
+I did not write:
+1. The GusModals.css
+2. timeline.css
+
+
+																				IMGs
+
+cd-icon-picture.svg : https://codyhouse.co/gem/vertical-timeline/
+cd-icon-movie.svg : https://codyhouse.co/gem/vertical-timeline/
+cd-icon-location.svg : https://codyhouse.co/gem/vertical-timeline/
+officebuilding.jpg : https://codyhouse.co/gem/vertical-timeline/
+oracle.mp4 : https://www.youtube.com/watch?v=Ba-nSVr62DU&t=11s
+GuateFilial.png : https://www.google.de/maps/
+arbeitsatmosphäre.png : https://www.wirtschaftswissen.de/personal-arbeitsrecht/mitarbeiterfuehrung/motivationstechniken/mitarbeitermotivation-so-schaffen-sie-ein-gutes-arbeitsklima/
+mexico.png : https://www.google.de/maps/
+Google.png : https://de.wikipedia.org/wiki/Datei:Google_%22G%22_Logo.svg
+-->
+<html>
+	<head>
+		<meta name="author" content="Gustavo Antnio Lastra Colorado">
+		<meta name="description" content="Template wicht includes a timeline of the company">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Bitchilla Web-Development</title>
+		<link rel="stylesheet" href="../css/GusGeschichte.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="../css/GusTags.css"> <!-- Resource style -->
+		<link rel="stylesheet" href="../css/GusGrid.css"> <!-- To specify the rows and columns properties-->
+		<link rel="stylesheet" href="../css/GusModals.css"> <!-- Modals style -->
+		<link rel="stylesheet" href="../css/timeline.css"> <!-- Resource style -->
+	</head>
+	<body class="cuerpo" id="Startseite">
+		<header id="nav-menue">
+			<div class="logo"><a href="../startseite/index.html"><img src="../img/logo.png" alt="logo"></a> </div>
+			<nav  class="jessnav" id="togglesteuerung">
+				<ul>
+					<li><a href="#">&Uuml;ber Uns</a>
+						<ul>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Geschichte</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Leistungen</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Karriere</a></li>
+					<li><a href="#">FAQ</a></li>
+				</ul>
+			</nav>
+			<a class="menue-button menue-button-beschr-close"
+			href="#nav-menue-zu">&#9776;</a>
+			<a class="menue-button menue-button-beschr-open"
+			href="#nav-menue">&#9776;</a>
+		</header>
+		<div class="row">
+		<main>
+			<section id="cd-timeline" class="cd-container">
+				<!--+++++++++++++++++++++++++++++++Block 1++++++++++++++++++++++++++++------->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-picture">
+						<img src="../img/cd-icon-picture.svg" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+					<div class="cd-timeline-content">
+						<h2>Grundung</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+						<button id="myBtn1" class="cd-read-more">Read more</button><!-- Trigger/Open The Modal -->
+						<div id="myModal1" class="modal"> <!-- The Modal -->
+						  <div class="modal-content"><!-- Modal content -->
+						    <span id="s1" class="close">&times;</span>
+								<img class="imgPanel" src="../img/officebuilding.jpg" alt="building">
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>
+						<span class="cd-date">Jan 14 1963</span>
+					</div>
+				</div>
+				<!--+++++++++++++++++++++++++++++++Block 2++++++++++++++++++++++++++++------->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-movie">
+						<img src="../img/cd-icon-movie.svg" alt="Movie">
+					</div>
+					<div class="cd-timeline-content">
+						<h2>Oracle becomes a partner</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+						<button id="myBtn2" class="cd-read-more">Read more</button><!-- Trigger/Open The Modal -->
+						<div id="myModal2" class="modal"><!-- The Modal -->
+						  <div class="modal-content"><!-- Modal content -->
+						    <span id="s2" class="close">&times;</span>
+								<video width="640" height="480" controls>
+							  <source src="../mp4/oracle.mp4" type="video/mp4">
+								</video>
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>
+						<span class="cd-date">Jan 18 1998</span>
+					</div>
+				</div>
+				<!--+++++++++++++++++++++++++++++++Block 3++++++++++++++++++++++++++++------->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-picture">
+						<img src="../img/cd-icon-location.svg" alt="Location">
+					</div>
+					<div class="cd-timeline-content">
+						<h2>Neue Filial in Guatemala</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit, itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat aliquam sunt similique aut adipisci.</p>
+						<button id="myBtn3" class="cd-read-more">Read more</button><!-- Trigger/Open The Modal -->
+						<div id="myModal3" class="modal"><!-- The Modal -->
+						  <div class="modal-content"><!-- Modal content -->
+								<span id="s3" class="close">&times;</span>
+								<img class="imgPanel" src="../img/GuateFilial.png" alt="guatefilial">
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>
+						<span class="cd-date">Jan 24</span>
+					</div>
+				</div>
+				<!--+++++++++++++++++++++++++++++++Block 4++++++++++++++++++++++++++++------->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-location">
+						<img src="../img/cd-icon-picture.svg" alt="Picture">
+					</div> <!-- cd-timeline-img -->
+					<div class="cd-timeline-content">
+						<h2>"Beste Arbeitsatmosphäre" -Nicola Tesla </h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+						<button id="myBtn4" class="cd-read-more">Read more</button><!-- Trigger/Open The Modal -->
+						<div id="myModal4" class="modal"><!-- The Modal -->
+							<div class="modal-content"><!-- Modal content -->
+								<span id="s4" class="close">&times;</span>
+								<img class="imgPanel" src="../img/arbeitsatmosphäre.png" alt="Picture">
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>
+						<span class="cd-date">Feb 14</span>
+					</div> <!-- cd-timeline-content -->
+				</div> <!-- cd-timeline-block -->
+		<!--+++++++++++++++++++++++++++++++Block 5++++++++++++++++++++++++++++------->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-location">
+						<img src="../img/cd-icon-location.svg" alt="Location">
+					</div> <!-- cd-timeline-img -->
+					<div class="cd-timeline-content">
+						<h2>Neue Filiale in Mexiko</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p>
+						<button id="myBtn5" class="cd-read-more">Read more</button><!-- Trigger/Open The Modal -->
+						<div id="myModal5" class="modal"><!-- The Modal -->
+							<div class="modal-content"><!-- Modal content -->
+								<span id="s5" class="close">&times;</span>
+								<img class="imgPanel" src="../img/mexico.png" alt="atmo">
+								<p>Some text in the Modal..</p>
+							</div>
+						</div>
+						<span class="cd-date">Feb 18</span>
+					</div>
+				</div>
+				<!--+++++++++++++++++++++++++++++++Block 6++++++++++++++++++++++++++++------->
+				<div class="cd-timeline-block">
+					<div class="cd-timeline-img cd-movie">
+						<img src="../img/cd-icon-picture.svg" alt="Picture">
+					</div>
+					<div class="cd-timeline-content">
+						<h2>Bichilla becames Google's owner</h2>
+						<p>This is the content of the last section</p>
+						<button id="myBtn6" class="cd-read-more">Read more</button><!-- Trigger/Open The Modal -->
+						<div id="myModal6" class="modal"><!-- The Modal -->
+							<div class="modal-content"><!-- Modal content -->
+								<span id="s6" class="close">&times;</span>
+								<img class="imgPanel" src="../img/Google.png" alt="">
+						    <p>Some text in the Modal..</p>
+						  </div>
+						</div>
+						<span class="cd-date">Feb 26</span>
+					</div>
+				</div>
+			</section>
+			<script type="text/javascript" src="../js/GusModals.js"></script> <!-- modals javascript -->
+		</main>
+		<footer>
+			<a href="https://www.facebook.com"><img src="../img/fb-logo.png" alt="facebook logo"></a>
+			<a href="https://www.twitter.com"><img src="../img/twitter-logo.png" alt="twitter logo"></a>
+			<a href="https://www.plus.google.com"><img src="../img/google-logo.png" alt="google plus logo"></a>
+			<a href="https://de.linkedin.com/"><img src="../img/linked-logo.png" alt="linked in logo"></a>
+			<br>&#9400; 2017 All rights reserved by Bitchilla | <a href="#">Impressum</a>
+		</footer>
+	</body>
+</html>

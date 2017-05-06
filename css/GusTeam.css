@@ -1,5 +1,6 @@
 .cuerpoTeam {
- background-color: rgba(78, 83, 89, 0.04);
+ background-color: rgba(254, 254, 254, 0.72);
+
 }
 
 .imgteam {
@@ -19,7 +20,7 @@
   padding: 5% 7%;
   text-align: center;
   margin-top: 30% ;
-  background: rgba(221, 221, 221, 0);
+  background: #e9eae9;
   width: 100%;
 
 }
