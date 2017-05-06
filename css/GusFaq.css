@@ -1,10 +1,9 @@
-
 .faqsection {
  margin-top: 2%;
  margin-bottom: 2%;
  font-family: "Open Sans", sans-serif;
  font-weight: bold;
- color: #a7b7b5;
+ color: #22ab03;
 }
 
 .paragraphPanel {
@@ -13,20 +12,20 @@
 
 /*button of the panel*/
 .button {
-    background-color: #4e5359 ;
-    color: white;
-    cursor: pointer;
-    width: 50%;
-    text-align: left;
-    font-size: 100%;
-    padding-left:5%;
-    padding-right: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    white-space: nowrap;
-    border-bottom: 1px solid #555b61;
-    text-decoration: none;
-    display: inline-block;
+  background-color: #4e5359 ;
+  color: white;
+  cursor: pointer;
+  width: 50%;
+  text-align: left;
+  font-size: 100%;
+  padding-left:5%;
+  padding-right: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  white-space: nowrap;
+  border-bottom: 1px solid #555b61;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .button:hover {
@@ -43,7 +42,6 @@
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-
   padding: 0 5%;
   background-color: white;
   max-height: 0;

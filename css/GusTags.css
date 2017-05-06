@@ -63,12 +63,12 @@ button.accordion {
     outline: none;
     transition: 0.4s;
     font-size: 150%;
-
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
     background-color: white;
+
 
 }
 
@@ -126,10 +126,8 @@ nav {
 	margin-right:0;
 	margin-left:30%;
 	position:fixed;
-
 	float: right;
 }
-
 
 nav ul {
 	margin: 0;
@@ -261,7 +259,6 @@ nav ul ul li a{
 }
 
 /*FOOTER*/
-
 footer {
 	top: 0;
 	left: 0;
@@ -292,5 +289,4 @@ footer a:hover,
 footer a:active{
 color: #22ab03;
 }
-
 /*+++++++++++++++++++++++++ End JessTags for Header and Footer++++++++++++++++++++*/
