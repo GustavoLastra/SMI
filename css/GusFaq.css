@@ -1,0 +1,61 @@
+
+.faqsection {
+ margin-top: 2%;
+ margin-bottom: 2%;
+ font-family: "Open Sans", sans-serif;
+ font-weight: bold;
+ color: #a7b7b5;
+}
+
+.paragraphPanel {
+  padding-bottom: 5%;
+}
+
+
+
+
+/*button of the panel*/
+.button {
+    background-color: #4e5359 ;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    text-align: left;
+    font-size: 100%;
+    padding-left:5%;
+    padding-right: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    white-space: nowrap;
+    border-bottom: 1px solid #555b61;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+  background-color: #5d6165;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+
+.accopanel:hover {
+  box-shadow: 0 0 1em  grey;
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+
+  padding: 0 5%;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++ for the panel+++++++++++++++++++++++++++++++++++++*/
+.imgrow {
+  float: right;
+  width: 3%;
+}

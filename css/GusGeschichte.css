@@ -1,0 +1,29 @@
+.cuerpo {
+  background-color: rgba(78, 89, 84, 0.2);
+}
+
+.imgPanel {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 1em  grey;
+  max-width: 100%;
+  border-radius: 2%;
+  padding: 1%;
+  width: 60%;
+}
+/* --------------------------------
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,29 @@
+.cuerpoTeam {
+ background-color: rgba(78, 83, 89, 0.04);
+}
+
+.imgteam {
+  max-width: 100%;
+
+  padding: 1%;
+  width: 50%;
+}
+
+.nameTeam {
+  color: #22ab03;
+}
+
+.profil {
+  box-shadow: 0 0 1em  grey;
+  background-color: #fefefe;
+  padding: 5% 7%;
+  text-align: center;
+  margin-top: 30% ;
+  background: rgba(221, 221, 221, 0);
+  width: 100%;
+
+}
+
+.teamP {
+  text-align: justify;
+}
